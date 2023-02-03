@@ -4,6 +4,7 @@
 
 ## Linear Regression to Predict MPG
 ![mpgPredictionModel.png](Images/mpgPredictionModel.PNG)
+
 * According to our results, the variables that prodide a non-random amount of variance is the intercept, vehicle_length, and ground_clearence. 
 The coefficients are as follows:
 - Intercept: Approximately 0 < 0.5 which is statistically significant. Non-random amount of variance.
@@ -28,9 +29,11 @@ The multiple linear regression formula is mpg = -0.01 + 6.267*vehicle_length + 0
 ## Summary Statistics on Suspension COils
 ### Manufacturing Lot Summary
 ![total_summary.png](Images/total_summary.PNG)
+
 The summary above shows the statistics for all manufacturing lots. The mean is 1498.78 with a standard deviation of 7.89.
 
 ![lot_summary.png](Images/lot_summary.PNG)
+
 The summary above shows the statistics for each indivdual manufacturing lots. Comparing the summary from the total reveals that most of the variance comes from lot 3.
 
 ### Overall Summary
@@ -38,15 +41,19 @@ Based on the summaries shown, as a whole the variance on these lots seem to be w
 
 ## T-Test on Suspension Coils
 ![ttest_all_lots.png](Images/ttest_all_lots.PNG)
+
 Based on the t-test for all lots, we see that the test on total manufaturing lots fails to reject the null hypthesis with a p-value = 0.06 > 0.05. This means that the mean for all lots is not different from the population mean of 1500.
 
 ![ttest_lot1.png](Images/ttest_lot1.PNG)
+
 Based on the t-test for all lots, we see that the test on lot 1 to reject the null hypthesis with a p-value = 1 > 0.05. This means that the mean for Lot 1 is not different from the population mean of 1500.
 
 ![ttest_lot1.png](Images/ttest_lot2.PNG)
+
 Based on the t-test for all lots, we see that the test on lot 2 fails to reject the null hypthesis with a p-value = 0.61 > 0.05. This means that the mean for Lot 2 is not different from the population mean of 1500.
 
 ![ttest_lot1.png](Images/ttest_lot3.PNG)
+
 Based on the t-test for all lots, we see that the test on lot 3 rejects the null hypthesis with a p-value = 0.04 < 0.05. This is statistically significant which means that Lot 3 is different from the population mean of 1500.
 
 ## Study Design: MechaCar vs Competition
