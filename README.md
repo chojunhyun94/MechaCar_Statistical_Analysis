@@ -5,7 +5,7 @@
 ## Linear Regression to Predict MPG
 ![mpgPredictionModel.png](Images/mpgPredictionModel.PNG)
 
-* According to our results, the variables that prodide a non-random amount of variance is the intercept, vehicle_length, and ground_clearence. 
+1. According to our results, the variables that prodide a non-random amount of variance is the intercept, vehicle_length, and ground_clearence. 
 The coefficients are as follows:
 - Intercept: Approximately 0 < 0.5 which is statistically significant. Non-random amount of variance.
 - Vehicle Length: Approximately 0 < 0.5 which is statistically significant. Non-random amount of variance.
@@ -16,7 +16,7 @@ The coefficients are as follows:
 
 This means that vehicle length and ground clearence will have a significant impact on the MPG. The fact that the intercept is included implies that there are other variables that are not accounted for in our dataset which contribute to the MPG.
 
-* The slopes of the linear model are as follows:
+2. The slopes of the linear model are as follows:
 - Vehicle Length: 6.267
 - Vehicle Weight: 0.001
 - Spoiler Angle: 0.069
@@ -24,7 +24,7 @@ This means that vehicle length and ground clearence will have a significant impa
 - AWD: -3.411
 The multiple linear regression formula is mpg = -0.01 + 6.267*vehicle_length + 0.0001*vehicle_weight + 0.069*spoiler_angle + 3.546*ground_clearence - 3.411*AWD. This results in a non-zero slope.
 
-* This linear model is a good predictor of mpg for MechaCar Prototypes because R-Squared is 0.7149. This is a close to strong correlation for the dataset. However, considering the statistically significant intercept, we can assume that there could be a better model with variables not represented in this dataset.
+3. This linear model is a good predictor of mpg for MechaCar Prototypes because R-Squared is 0.7149. This is a close to strong correlation for the dataset. However, considering the statistically significant intercept, we can assume that there could be a better model with variables not represented in this dataset.
 
 ## Summary Statistics on Suspension COils
 ### Manufacturing Lot Summary
