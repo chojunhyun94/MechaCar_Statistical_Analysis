@@ -1,6 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Overview
+A client requested that we look at the statistical data for a new prototype of car called the MechaCar. MechaCar, AutosRUs' newest prototype, is suffering from production troubles and we are looking to find insights that may help the manufacturing team. Based on the data we have and the statistical studies, we have conclusions that help us focus on specific aspects of the car so that key production resources can be invested in the important aspects of the car.
 
 ## Linear Regression to Predict MPG
 ![mpgPredictionModel.png](Images/mpgPredictionModel.PNG)
